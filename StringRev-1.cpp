@@ -10,7 +10,7 @@ int main(){
         
     }
     i = i-1;//forgot this, had to look in notes, important as last char it checks and lands on is /0, so have to bring i one down.
-    for(j=0; j<5; i--, j++){
+    for(j=0; j<5; i--, j++){//Also, condition i>=0, works in the condition.
         B[j] = A[i];//was swapping and mixing the two techniques.
     }
     B[j] = '\0';//added this later.
